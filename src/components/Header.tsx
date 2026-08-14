@@ -18,27 +18,8 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
         <a
           href="#top"
-          className="flex items-center gap-2.5 font-display text-xl italic tracking-tight text-ink"
+          className="font-display text-xl italic tracking-tight text-ink"
         >
-          <svg
-            viewBox="0 0 64 64"
-            className="h-7 w-7 shrink-0"
-            aria-hidden="true"
-          >
-            <circle cx="32" cy="32" r="32" fill="#14130f" />
-            <text
-              x="33"
-              y="43"
-              textAnchor="middle"
-              fontFamily="Georgia, 'Times New Roman', serif"
-              fontStyle="italic"
-              fontWeight="600"
-              fontSize="30"
-              fill="#f4eddb"
-            >
-              SD
-            </text>
-          </svg>
           Sean Danielson
         </a>
 
