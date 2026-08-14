@@ -23,10 +23,10 @@ export default function Footer() {
 
         <Reveal delay={100}>
           <a
-            href="mailto:sdanielson719@gmail.com"
+            href="mailto:seandanielsondev@gmail.com"
             className="text-balance mt-10 inline-block font-display text-2xl italic text-cream-on-dark underline decoration-line-dark decoration-1 underline-offset-8 transition-colors hover:decoration-amber sm:text-3xl"
           >
-            sdanielson719@gmail.com
+            seandanielsondev@gmail.com
           </a>
         </Reveal>
 

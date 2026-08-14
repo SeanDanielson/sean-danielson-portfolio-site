@@ -18,10 +18,31 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://seandanielson.com";
+const title = "Sean Danielson · Senior Software Engineer";
+const description =
+  "Senior full-stack engineer building production LLM features, financial software, and modern web platforms. Available for hire and for freelance software, web, and AI projects.";
+
 export const metadata: Metadata = {
-  title: "Sean Danielson · Senior Software Engineer",
-  description:
-    "Senior full-stack engineer building production LLM features, financial software, and modern web platforms. Available for hire and for freelance software, web, and AI projects.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title,
+    description,
+    url: siteUrl,
+    siteName: "Sean Danielson",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
