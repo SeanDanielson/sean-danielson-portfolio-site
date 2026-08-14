@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-cream-on-dark-soft">
-            07 · Contact
+            06 · Contact
           </p>
           <h2 className="text-balance mt-5 max-w-2xl font-display text-4xl italic leading-tight sm:text-5xl md:text-6xl">
             Let&rsquo;s build something.

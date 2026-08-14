@@ -4,7 +4,7 @@ const SERVICES = [
   {
     n: "01",
     title: "Web & Software Development",
-    body: "Full-stack web apps and product builds on the same stack behind production fintech software: React/Next.js, Node/NestJS, and .NET, deployed on Azure, GCP, or AWS. From a marketing site to a full application, built to last past launch.",
+    body: "Full-stack web apps and internal products — React/Next.js on the frontend, Node or .NET on the backend, deployed wherever makes sense for your team. From a marketing site to a full application, built to last past launch.",
     icon: (
       <path
         d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z M4 9h16 M7.5 7h.01"
@@ -16,7 +16,7 @@ const SERVICES = [
   {
     n: "02",
     title: "Internal Tooling",
-    body: "Custom internal tools and dashboards that replace manual, error-prone workflows — the same kind of work that took accounts-payable data entry at a public company from a manual process to an automated one.",
+    body: "Custom internal tools and dashboards that replace manual, error-prone spreadsheets and one-off scripts with something reliable your team can actually depend on.",
     icon: (
       <path
         d="M14.7 6.3a1 1 0 0 0 1.4 0l1.6-1.6a1 1 0 0 1 1.4 1.4l-1.6 1.6a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 1-1.4 1.4l-1.6-1.6a1 1 0 0 0-1.4 0L5.3 19.7a1 1 0 0 1-1.4-1.4L14.7 7.5a1 1 0 0 0 0-1.2Z M7 15l2 2"

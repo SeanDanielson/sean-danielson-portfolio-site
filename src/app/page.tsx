@@ -5,7 +5,6 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Services from "@/components/Services";
 import CaseStudy from "@/components/CaseStudy";
-import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
         <Experience />
         <Services />
         <CaseStudy />
-        <Education />
       </main>
       <Footer />
     </>
