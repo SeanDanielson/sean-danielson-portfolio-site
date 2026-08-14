@@ -21,15 +21,15 @@ export default function About() {
           <Reveal>
             <p className="text-balance font-display text-3xl leading-snug text-ink sm:text-4xl">
               I spend my days on the hard middle of software: unstructured
-              data, legacy systems, and the AI layer stitched between them —
+              data, legacy systems, and the AI layer stitched between them,
               turned into things that hold up in production.
             </p>
           </Reveal>
 
           <Reveal delay={100}>
             <p className="mt-8 max-w-2xl text-base leading-relaxed text-ink-soft">
-              Recent work spans production LLM features — document ingestion,
-              a retrieval-backed in-product assistant — a rewrite of the
+              Recent work spans production LLM features (document ingestion,
+              a retrieval-backed in-product assistant), a rewrite of the
               security service on the platform&rsquo;s critical path, and
               legacy-to-modern data migrations with zero customer-facing
               downtime. Depth in TypeScript/Node and C#/.NET, across Azure

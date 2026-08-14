@@ -2,33 +2,33 @@ import Reveal from "./Reveal";
 
 const ROLES = [
   {
-    date: "May 2022 — Present",
+    date: "May 2022 – Present",
     company: "Blackbaud",
     location: "Charleston, SC",
     title: "Senior Software Engineer",
     subtitle: "Promoted from Software Engineer, May 2024",
     bullets: [
-      "Designed and shipped the platform's AI invoice ingestion pipeline — OCR extraction, LLM interpretation of unstructured invoices, and an AI-driven matching layer that reconciles extracted fields against existing records — replacing manual AP data entry.",
+      "Designed and shipped the platform's AI invoice ingestion pipeline: OCR extraction, LLM interpretation of unstructured invoices, and an AI-driven matching layer that reconciles extracted fields against existing records, replacing manual AP data entry.",
       "Benchmarked multiple LLMs against real customer invoice formats, driving extraction accuracy from ~40% in early prototypes to 80–90% in production.",
       "Contributed to Blackbaud's in-product AI assistant, using tool calling and retrieval over product knowledge bases to answer customer questions in context.",
-      "Led the rewrite of the product's security service — translating permissions between legacy and modern platforms on the critical path of every authenticated request.",
+      "Led the rewrite of the product's security service, translating permissions between legacy and modern platforms on the critical path of every authenticated request.",
       "Migrated core entities off legacy systems with zero customer-facing downtime; mentors engineers through internal walkthroughs and code review.",
       "Promoted to Senior in two years, recognized for end-to-end feature ownership and influence on platform design decisions.",
     ],
   },
   {
-    date: "Apr 2020 — Present",
+    date: "Apr 2020 – Present",
     company: "Cloud Music Suite",
     location: "Remote",
     title: "Cofounder & Lead Software Engineer",
     subtitle: "Music education platform",
     bullets: [
-      "Cofounded and own the full stack of a music education platform — sole engineer across architecture, implementation, and deployment.",
+      "Cofounded and own the full stack of a music education platform, as the sole engineer across architecture, implementation, and deployment.",
       "Rewrote the frontend and backend onto a modern stack (React, NestJS, TypeScript, MySQL on Google Cloud) and executed a full database migration off the original schema.",
     ],
   },
   {
-    date: "May 2019 — Aug 2019",
+    date: "May 2019 – Aug 2019",
     company: "Collins Aerospace",
     location: "Cedar Rapids, IA",
     title: "Software Engineering Intern",
@@ -62,8 +62,8 @@ export default function Experience() {
 
               <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6">
                 <h3 className="font-display text-2xl text-ink sm:text-3xl">
-                  {role.title}{" "}
-                  <span className="italic text-emerald">— {role.company}</span>
+                  {role.title} at{" "}
+                  <span className="italic text-emerald">{role.company}</span>
                 </h3>
                 <p className="shrink-0 font-mono text-xs uppercase tracking-wider text-ink-faint">
                   {role.date}

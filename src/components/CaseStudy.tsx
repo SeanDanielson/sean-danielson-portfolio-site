@@ -21,8 +21,8 @@ export default function CaseStudy() {
               Cloud Music Suite
             </h2>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-cream-on-dark-soft">
-              A music education platform I cofounded and own end-to-end — the
-              sole engineer across architecture, implementation, and
+              A music education platform I cofounded and own end-to-end, as
+              the sole engineer across architecture, implementation, and
               deployment. I rewrote the original frontend and backend onto a
               modern stack and executed a full database migration off the
               legacy schema, without disrupting existing users.
@@ -64,14 +64,14 @@ export default function CaseStudy() {
               Timeline
             </p>
             <p className="mt-2 font-display text-lg italic">
-              April 2020 — Present
+              April 2020 – Present
             </p>
             <p className="mt-6 font-mono text-xs uppercase tracking-wider text-cream-on-dark-soft">
               Scope
             </p>
             <p className="mt-2 text-sm leading-relaxed text-cream-on-dark-soft">
               Full-stack rewrite, database migration, and ongoing ownership
-              of every layer — product, infrastructure, and deployment.
+              of every layer: product, infrastructure, and deployment.
             </p>
           </Reveal>
         </div>

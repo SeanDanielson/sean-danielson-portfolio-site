@@ -17,7 +17,7 @@ export default function Hero() {
 
           <Reveal delay={100}>
             <h1 className="text-balance mt-6 font-display text-[2.6rem] leading-[1.08] tracking-tight text-ink sm:text-6xl md:text-6xl lg:text-7xl">
-              I build software that ships — and{" "}
+              I build software that ships, and{" "}
               <span className="italic text-emerald">AI features</span> that
               actually work.
             </h1>
@@ -26,7 +26,7 @@ export default function Hero() {
           <Reveal delay={200}>
             <p className="text-balance mt-7 max-w-xl text-lg leading-relaxed text-ink-soft">
               Senior full-stack engineer with 4+ years building and
-              modernizing financial software — production LLM pipelines,
+              modernizing financial software: production LLM pipelines,
               critical-path systems, and full-stack rewrites. Promoted to
               Senior at Blackbaud in two years.
             </p>

@@ -19,7 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sean Danielson — Senior Software Engineer",
+  title: "Sean Danielson · Senior Software Engineer",
   description:
     "Senior full-stack engineer building production LLM features, financial software, and modern web platforms. Available for hire and for freelance software, web, and AI projects.",
 };

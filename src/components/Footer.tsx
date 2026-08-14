@@ -15,7 +15,7 @@ export default function Footer() {
             Let&rsquo;s build something.
           </h2>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-cream-on-dark-soft">
-            Open to full-time roles and select freelance projects — whether
+            Open to full-time roles and select freelance projects, whether
             that&rsquo;s a recruiter reaching out or a business that needs
             software built.
           </p>
