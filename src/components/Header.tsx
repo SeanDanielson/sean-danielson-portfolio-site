@@ -14,7 +14,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-cream/85 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-line bg-cream/95 backdrop-blur-md before:absolute before:inset-x-0 before:bottom-full before:h-screen before:bg-cream before:content-['']">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
         <a
           href="#top"
