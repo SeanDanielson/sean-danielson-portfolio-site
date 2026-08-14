@@ -11,7 +11,7 @@ export default function CaseStudy() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-cream-on-dark-soft">
-            05 · Work
+            04 · Work
           </p>
         </Reveal>
 

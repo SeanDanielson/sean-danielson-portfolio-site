@@ -4,11 +4,10 @@ import { useState } from "react";
 
 const LINKS = [
   { n: "01", label: "About", href: "#about" },
-  { n: "02", label: "Skills", href: "#skills" },
-  { n: "03", label: "Experience", href: "#experience" },
-  { n: "04", label: "Services", href: "#services" },
-  { n: "05", label: "Work", href: "#work" },
-  { n: "06", label: "Contact", href: "#contact" },
+  { n: "02", label: "Experience", href: "#experience" },
+  { n: "03", label: "Services", href: "#services" },
+  { n: "04", label: "Work", href: "#work" },
+  { n: "05", label: "Contact", href: "#contact" },
 ];
 
 export default function Header() {

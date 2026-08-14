@@ -48,7 +48,7 @@ export default function Services() {
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-2xl">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink-faint">
-            04 · Services
+            03 · Services
           </p>
           <h2 className="mt-4 font-display text-4xl italic text-ink sm:text-5xl">
             What I build for clients

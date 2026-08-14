@@ -43,7 +43,7 @@ export default function Experience() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink-faint">
-            03 · Experience
+            02 · Experience
           </p>
           <h2 className="mt-4 font-display text-4xl italic text-ink sm:text-5xl">
             Where I&rsquo;ve built
