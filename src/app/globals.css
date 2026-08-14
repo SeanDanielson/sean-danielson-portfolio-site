@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-cream: #f7f2e7;
+  --color-cream-deep: #efe6d1;
+  --color-ink: #1c1a15;
+  --color-ink-soft: #55503f;
+  --color-ink-faint: #8a8270;
+  --color-ink-dark: #14130f;
+  --color-ink-dark-soft: #2a281f;
+  --color-cream-on-dark: #f4eddb;
+  --color-cream-on-dark-soft: #c9c0a6;
+  --color-emerald: #1f4d3d;
+  --color-emerald-bright: #2f7a5d;
+  --color-emerald-pale: #dfe8de;
+  --color-amber: #c1652e;
+  --color-line: #ddd3ba;
+  --color-line-dark: #3a3728;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-cream: var(--color-cream);
+  --color-cream-deep: var(--color-cream-deep);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-ink-faint: var(--color-ink-faint);
+  --color-ink-dark: var(--color-ink-dark);
+  --color-ink-dark-soft: var(--color-ink-dark-soft);
+  --color-cream-on-dark: var(--color-cream-on-dark);
+  --color-cream-on-dark-soft: var(--color-cream-on-dark-soft);
+  --color-emerald: var(--color-emerald);
+  --color-emerald-bright: var(--color-emerald-bright);
+  --color-emerald-pale: var(--color-emerald-pale);
+  --color-amber: var(--color-amber);
+  --color-line: var(--color-line);
+  --color-line-dark: var(--color-line-dark);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-archivo);
+  --font-mono: var(--font-jetbrains);
+
+  --animate-reveal: reveal 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(1.25rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection {
+  background: var(--color-emerald);
+  color: var(--color-cream-on-dark);
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal.is-visible {
+  animation: var(--animate-reveal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
 }
